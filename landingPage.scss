@@ -25,6 +25,9 @@ $textColorOri: #FFB23F;
     justify-content: space-between;
     align-items: center;
     .logo {
+        &:hover {
+            cursor: pointer;
+        }
         width: 130.05px;
         height: 42px;
         margin-left: 100px;
@@ -44,6 +47,9 @@ $textColorOri: #FFB23F;
         margin-right: 100px;
         display: flex;
         &-bag, &-user {
+            &:hover {
+                cursor: pointer;
+            }
             width: 30px;
             height: 30px;
             ion-icon {

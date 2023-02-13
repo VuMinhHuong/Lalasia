@@ -23,6 +23,9 @@
   height: 42px;
   margin-left: 100px;
 }
+.navbar .logo:hover {
+  cursor: pointer;
+}
 .navbar .item a {
   text-decoration: none;
   margin-left: 60px;
@@ -38,6 +41,9 @@
 .navbar .login-bag, .navbar .login-user {
   width: 30px;
   height: 30px;
+}
+.navbar .login-bag:hover, .navbar .login-user:hover {
+  cursor: pointer;
 }
 .navbar .login-bag ion-icon, .navbar .login-user ion-icon {
   width: 100%;
