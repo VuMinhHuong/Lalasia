@@ -1,0 +1,50 @@
+@font-face {
+  font-family: Eudoxus Sans;
+  src: url(./font/EudoxusSans-Medium.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: Eudoxus Sans;
+  color: #151411;
+}
+
+.navbar {
+  height: 120px;
+  border-bottom: #F3F3F3 solid 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .logo {
+  width: 130.05px;
+  height: 42px;
+  margin-left: 100px;
+}
+.navbar .item a {
+  text-decoration: none;
+  margin-left: 60px;
+  font-weight: 500;
+}
+.navbar .item a:first-child {
+  margin-left: 0px;
+}
+.navbar .login {
+  margin-right: 100px;
+  display: flex;
+}
+.navbar .login-bag, .navbar .login-user {
+  width: 30px;
+  height: 30px;
+}
+.navbar .login-bag ion-icon, .navbar .login-user ion-icon {
+  width: 100%;
+  height: 100%;
+}
+.navbar .login-user {
+  margin-left: 33px;
+}
+
+/*# sourceMappingURL=landingPage.css.map */
