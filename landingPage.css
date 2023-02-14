@@ -12,6 +12,8 @@
 }
 
 .navbar {
+  width: 86%;
+  margin: auto;
   height: 120px;
   border-bottom: #F3F3F3 solid 2px;
   display: flex;
@@ -21,7 +23,6 @@
 .navbar .logo {
   width: 130.05px;
   height: 42px;
-  margin-left: 100px;
 }
 .navbar .logo:hover {
   cursor: pointer;
@@ -35,7 +36,6 @@
   margin-left: 0px;
 }
 .navbar .login {
-  margin-right: 100px;
   display: flex;
 }
 .navbar .login-bag, .navbar .login-user {
@@ -51,6 +51,375 @@
 }
 .navbar .login-user {
   margin-left: 33px;
+}
+
+.discover {
+  margin-top: 100px;
+  position: relative;
+}
+.discover .furniture {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+  width: 55%;
+  margin: auto;
+}
+.discover .start {
+  width: 3.5%;
+  height: 3.5%;
+  position: absolute;
+  top: 8%;
+  right: 26%;
+}
+.discover .pellent {
+  text-align: center;
+  font-weight: 500;
+  width: 50%;
+  color: #AFADB5;
+  margin: 28px auto;
+}
+.discover .search-div {
+  width: 56%;
+  height: 84px;
+  position: absolute;
+  left: 22%;
+  box-shadow: 0px 4px 80px 0px rgba(175, 173, 181, 0.2);
+}
+.discover .search-div .search {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.discover .search-div .search .icon {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 26px;
+  left: 26px;
+}
+.discover .search-div .search .icon ion-icon {
+  width: 100%;
+  height: 100%;
+  color: #AFADB5;
+}
+.discover .search-div .search input {
+  width: 100%;
+  height: 100%;
+  padding-left: 76px;
+  font-weight: 500;
+  border: none;
+}
+.discover .search-div .search button {
+  width: 170px;
+  height: 54px;
+  background-color: #518581;
+  color: #F3F3F3;
+  border: none;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-weight: 700;
+}
+.discover .search-div .search button:hover {
+  cursor: pointer;
+}
+.discover .img-vector {
+  width: 17%;
+  height: 17%;
+  transform: rotate(18deg);
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+.discover .img-vector img {
+  width: 100%;
+  height: 100%;
+}
+.discover .img-pic {
+  width: 86%;
+  height: 480px;
+  margin: 66px auto;
+}
+.discover .img-pic img {
+  width: 100%;
+  height: 100%;
+}
+
+.benefit {
+  width: 86%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.benefit .title {
+  margin-top: 120px;
+  width: 35%;
+}
+.benefit .title .first {
+  color: #FFB23F;
+  font-weight: 700;
+}
+.benefit .title .second {
+  font-size: 44px;
+  font-weight: 700;
+}
+.benefit .detail {
+  width: 38%;
+}
+
+.benefit-card {
+  width: 86%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.benefit-card .first, .benefit-card .second, .benefit-card .third {
+  margin-top: 51px;
+  margin-bottom: 180px;
+  padding: 26px 24px;
+  box-shadow: 0px 4px 100px 0px rgba(175, 173, 181, 0.1);
+  width: 30%;
+}
+.benefit-card .first .logo, .benefit-card .second .logo, .benefit-card .third .logo {
+  width: 15%;
+  height: 25%;
+}
+.benefit-card .first .logo img, .benefit-card .second .logo img, .benefit-card .third .logo img {
+  width: 100%;
+  height: 100%;
+}
+.benefit-card .first .title, .benefit-card .second .title, .benefit-card .third .title {
+  margin: 24px 0px 20px 0px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.benefit-card .first .detail, .benefit-card .second .detail, .benefit-card .third .detail {
+  font-weight: 500;
+  color: #AFADB5;
+}
+
+.product {
+  width: 86%;
+  margin: auto;
+}
+.product .main-title {
+  text-align: center;
+  font-weight: 700;
+  color: #FFB23F;
+}
+.product .title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 44px;
+  margin-top: 14px;
+  margin-bottom: 30px;
+}
+.product .detail {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  font-weight: 500;
+  color: #AFADB5;
+}
+.our-product {
+  width: 86%;
+  margin: auto;
+}
+.our-product .title {
+  color: #FFB23F;
+  font-weight: 700;
+  margin: 180px 0px 14px 0px;
+}
+.our-product .detail {
+  margin-bottom: 180px;
+}
+.our-product .detail .craf {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.our-product .detail .craf .left {
+  width: 40%;
+  font-weight: 700;
+  font-size: 44px;
+}
+.our-product .detail .craf .right {
+  display: flex;
+}
+.our-product .detail .craf .right .first:nth-child(2) {
+  margin: 0px 50px;
+}
+.our-product .detail .craf .right .first .up {
+  font-weight: 700;
+  font-size: 44px;
+  margin-bottom: 10px;
+}
+.our-product .detail .craf .right .first .down {
+  font-weight: 500;
+  color: #AFADB5;
+}
+.our-product .detail .pellen {
+  display: flex;
+  justify-content: space-between;
+}
+.our-product .detail .pellen .left {
+  width: 48%;
+}
+.our-product .detail .pellen .left .text {
+  margin-top: 50px;
+  width: 85%;
+  font-weight: 500;
+  color: #AFADB5;
+}
+.our-product .detail .pellen .left button {
+  width: 170px;
+  height: 54px;
+  background-color: #518581;
+  color: #F3F3F3;
+  border: none;
+  font-weight: 700;
+  margin: 50px 0px;
+}
+.our-product .detail .pellen .left button:hover {
+  cursor: pointer;
+}
+.our-product .detail .pellen .left .img {
+  width: 100%;
+  height: 290px;
+}
+.our-product .detail .pellen .left .img img {
+  width: 100%;
+  height: 100%;
+}
+.our-product .detail .pellen .right {
+  width: 48%;
+  height: 510px;
+  margin-top: 50px;
+}
+.our-product .detail .pellen .right img {
+  width: 100%;
+  height: 100%;
+}
+
+.testimonial {
+  width: 86%;
+  margin: auto;
+}
+.testimonial .main-title {
+  text-align: center;
+  font-weight: 700;
+  color: #FFB23F;
+}
+.testimonial .title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 44px;
+  margin-top: 14px;
+  margin-bottom: 30px;
+}
+.testimonial .detail {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  font-weight: 500;
+  color: #AFADB5;
+}
+.article {
+  width: 86%;
+  margin: auto;
+}
+.article .title {
+  font-weight: 700;
+  color: #FFB23F;
+  margin-top: 180px;
+}
+.article .container {
+  display: flex;
+}
+.article .container .left {
+  width: 45%;
+}
+.article .container .left .title-left {
+  font-weight: 700;
+  font-size: 44px;
+  margin-top: 14px;
+}
+.article .container .left .detail {
+  font-weight: 500;
+  color: #AFADB5;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.article .container .left .caroseal {
+  width: 100%;
+  height: 615px;
+  border: 1px solid #AFADB5;
+}
+.article .container .left .caroseal img {
+  width: 100%;
+}
+.article .container .right {
+  width: 45%;
+  margin-left: 50px;
+}
+.article .container .right .card {
+  display: flex;
+}
+.article .container .right .card:nth-child(2) {
+  margin: 70px 0px;
+}
+.article .container .right .card .img {
+  width: 50%;
+  height: 50%;
+}
+.article .container .right .card .img img {
+  width: 100%;
+  height: 100%;
+}
+.article .container .right .card .descript {
+  margin-left: 26px;
+}
+.article .container .right .card .descript ._1st {
+  font-weight: 500;
+  color: #AFADB5;
+  margin: 21px 0px;
+}
+.article .container .right .card .descript ._2nd {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+.article .container .right .card .descript ._3rd {
+  font-weight: 500;
+  color: #AFADB5;
+  margin-bottom: 16px;
+}
+.article .container .right .card .descript ._4st {
+  display: flex;
+}
+.article .container .right .card .descript ._4st ._4st-1 {
+  width: 28px;
+  height: 28px;
+}
+.article .container .right .card .descript ._4st ._4st-1 img {
+  width: 100%;
+  height: 100%;
+}
+.article .container .right .card .descript ._4st ._4st-2 {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.article .container .right .card .descript ._4st ._4st-2 ._4st-2-1 {
+  font-weight: 700;
+  font-size: 14px;
+}
+.article .container .right .card .descript ._4st ._4st-2 ._4st-2-2 {
+  margin-left: 24px;
+  font-weight: 500;
+  color: #AFADB5;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=landingPage.css.map */
