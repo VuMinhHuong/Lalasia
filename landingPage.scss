@@ -360,6 +360,7 @@ $bgc: #518581;
     }
     .container {
         display: flex;
+        margin-bottom: 180px;
         .left {
             width: 45%;
             .title-left {
@@ -389,6 +390,7 @@ $bgc: #518581;
                 display: flex;
                 &:nth-child(2) {
                     margin: 70px 0px;
+                    width: 105%;
                 }
                 .img {
                     width: 50%;
@@ -403,7 +405,7 @@ $bgc: #518581;
                     ._1st {
                         font-weight: 500;
                         color: $textColorGray;
-                        margin: 21px 0px;
+                        margin: 15px 0px;
                     }
                     ._2nd {
                         font-weight: 700;
@@ -444,6 +446,76 @@ $bgc: #518581;
                 }
             }
 
+        }
+    }
+}
+
+// joint-with
+.joint-with {
+    width: 86%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    .contain {
+        font-weight: 700;
+        font-size: 44px;
+    }
+    button {
+        width: 190px;
+        height: 54px;
+        line-height: 54px;
+        background-color: $bgc;
+        color: #F3F3F3;
+        border: none;
+        font-weight: 700;
+        margin-bottom: 86px;
+        position: relative;
+        &:hover {
+            cursor: pointer;
+        }
+        ion-icon {
+            position: absolute;
+            top: 15px;
+            right: 10px;
+            margin-left: 18px;
+            color: #F3F3F3;
+            font-size: 24px
+        }
+    }
+}
+
+// footer
+.footer {
+    width: 86%;
+    margin: auto;
+    border-top: 1.5px solid #ECE4DE;
+    display: flex;
+    .left {
+        .logo {
+            margin-top: 86px;
+        }
+        .title {
+            width: 75%;
+            font-weight: 500;
+            margin: 36px 0px 150px 0px;
+        }
+    }
+    .right {
+        margin-left: 20%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 35%;
+        ._1st {
+            p {
+                font-weight: 500;
+                margin: 20px 0px;
+                &:first-child {
+                    margin-top: 80px;
+                    font-weight: 700;
+                    font-size: 20px;
+                }
+            }
         }
     }
 }
